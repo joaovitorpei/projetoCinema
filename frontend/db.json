@@ -1,0 +1,17 @@
+{
+  "filmes": [
+    {
+      "id": "b703",
+      "titulo": "homem ferro",
+      "sinopse": "ola hhhddddddddssss",
+      "duracao": 90,
+      "classificacao": "16 anos",
+      "genero": "Ficção",
+      "dataInicialExibicao": "2025-12-06",
+      "dataFinalExibicao": "2026-02-20"
+    }
+  ],
+  "salas": [],
+  "sessoes": [],
+  "ingressos": []
+}
