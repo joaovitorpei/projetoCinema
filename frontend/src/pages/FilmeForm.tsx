@@ -89,7 +89,12 @@ export function FilmeForm() {
               { label: 'Comédia', value: 'Comédia' },
               { label: 'Drama', value: 'Drama' },
               { label: 'Terror', value: 'Terror' },
-              { label: 'Ficção', value: 'Ficção' }
+              { label: 'Ficção', value: 'Ficção' },
+              { label: 'Romance', value: 'Romance' },
+              { label: 'Animação', value: 'Animação' },
+              { label: 'Documentário', value: 'Documentário' },
+              { label: 'Fantasia', value: 'Fantasia' },
+              { label: 'Aventura', value: 'Aventura' }
             ]}
           />
         </div>
