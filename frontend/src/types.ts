@@ -48,3 +48,31 @@ export const ingressoSchema = z.object({
 });
 
 export type Ingresso = z.infer<typeof ingressoSchema>;
+
+// --- LANCHES ---
+export const lancheSchema = z.object({
+  id: z.string().optional(),
+  nome: z.string().min(1, "O nome do lanche é obrigatório"),
+  descricao: z.string().optional(),
+  preco: z.coerce.number().min(0, "O preço deve ser maior ou igual a zero"),
+});
+
+export type Lanche = z.infer<typeof lancheSchema>;
+
+// --- PEDIDOS ---
+// Um pedido contém ingressos e lanches
+export const pedidoSchema = z.object({
+  id: z.string().optional(),
+  dataPedido: z.string(), // ISO Date
+  ingressos: z.array(ingressoSchema),
+  lanches: z.array(z.object({
+    lancheId: z.string(),
+    quantidade: z.number().min(1),
+    precoUnitario: z.number(), // Preço no momento da compra
+    nomeLanche: z.string() // Snapshot do nome
+  })).optional(),
+  valorTotal: z.number(),
+  sessaoId: z.string().optional() // Para facilitar rastreio
+});
+
+export type Pedido = z.infer<typeof pedidoSchema>;

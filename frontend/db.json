@@ -1,17 +1,1610 @@
 {
-  "filmes": [
-    {
-      "id": "b703",
-      "titulo": "homem ferro",
-      "sinopse": "ola hhhddddddddssss",
-      "duracao": 90,
-      "classificacao": "16 anos",
-      "genero": "Ficção",
-      "dataInicialExibicao": "2025-12-06",
-      "dataFinalExibicao": "2026-02-20"
-    }
-  ],
+  "filmes": [],
   "salas": [],
   "sessoes": [],
-  "ingressos": []
+  "ingressos": [
+    {
+      "id": "56a5",
+      "sessaoId": "cc25",
+      "assento": "Assento 1",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "c8da",
+      "sessaoId": "cc25",
+      "assento": "Assento 2",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "efac",
+      "sessaoId": "cc25",
+      "assento": "Assento 7",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "b504",
+      "sessaoId": "cc25",
+      "assento": "Assento 3",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "9ff2",
+      "sessaoId": "cc25",
+      "assento": "Assento 8",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "fa5d",
+      "sessaoId": "cc25",
+      "assento": "Assento 4",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "18ad",
+      "sessaoId": "cc25",
+      "assento": "Assento 9",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "59bc",
+      "sessaoId": "cc25",
+      "assento": "Assento 10",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "ec47",
+      "sessaoId": "cc25",
+      "assento": "Assento 5",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "e1eb",
+      "sessaoId": "cc25",
+      "assento": "Assento 11",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "340d",
+      "sessaoId": "cc25",
+      "assento": "Assento 12",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "da6a",
+      "sessaoId": "cc25",
+      "assento": "Assento 6",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "fbf2",
+      "sessaoId": "cc25",
+      "assento": "Assento 13",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "e58b",
+      "sessaoId": "cc25",
+      "assento": "Assento 14",
+      "tipo": "INTEIRA",
+      "valor": 20
+    },
+    {
+      "id": "aeb9",
+      "sessaoId": "cc25",
+      "assento": "Assento 15",
+      "tipo": "INTEIRA",
+      "valor": 20
+    },
+    {
+      "id": "df38",
+      "sessaoId": "cc25",
+      "assento": "Assento 16",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "d533",
+      "sessaoId": "cc25",
+      "assento": "Assento 43",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "3283",
+      "sessaoId": "cc25",
+      "assento": "Assento 44",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "9a6b",
+      "sessaoId": "cc25",
+      "assento": "Assento 45",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "4f32",
+      "sessaoId": "cc25",
+      "assento": "Assento 46",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "fba2",
+      "sessaoId": "cc25",
+      "assento": "Assento 47",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "b9f9",
+      "sessaoId": "cc25",
+      "assento": "Assento 48",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "b309",
+      "sessaoId": "cc25",
+      "assento": "Assento 49",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "efb1",
+      "sessaoId": "cc25",
+      "assento": "Assento 50",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "f89b",
+      "sessaoId": "cc25",
+      "assento": "Assento 51",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "3217",
+      "sessaoId": "cc25",
+      "assento": "Assento 52",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "69fa",
+      "sessaoId": "cc25",
+      "assento": "Assento 53",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "b25a",
+      "sessaoId": "cc25",
+      "assento": "Assento 54",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "a4b6",
+      "sessaoId": "cc25",
+      "assento": "Assento 55",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "25b0",
+      "sessaoId": "cc25",
+      "assento": "Assento 56",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "400c",
+      "sessaoId": "cc25",
+      "assento": "Assento 57",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "c3f5",
+      "sessaoId": "cc25",
+      "assento": "Assento 58",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "9608",
+      "sessaoId": "cc25",
+      "assento": "Assento 59",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "af22",
+      "sessaoId": "cc25",
+      "assento": "Assento 60",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "5975",
+      "sessaoId": "cc25",
+      "assento": "Assento 61",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "2664",
+      "sessaoId": "cc25",
+      "assento": "Assento 62",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "08c1",
+      "sessaoId": "cc25",
+      "assento": "Assento 63",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "92dd",
+      "sessaoId": "cc25",
+      "assento": "Assento 64",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "1b12",
+      "sessaoId": "cc25",
+      "assento": "Assento 65",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "30e7",
+      "sessaoId": "cc25",
+      "assento": "Assento 66",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "0b21",
+      "sessaoId": "cc25",
+      "assento": "Assento 67",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "299a",
+      "sessaoId": "cc25",
+      "assento": "Assento 68",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "c8ca",
+      "sessaoId": "cc25",
+      "assento": "Assento 69",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "dbab",
+      "sessaoId": "cc25",
+      "assento": "Assento 70",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "3076",
+      "sessaoId": "cc25",
+      "assento": "Assento 71",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "0bd2",
+      "sessaoId": "cc25",
+      "assento": "Assento 72",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "e506",
+      "sessaoId": "cc25",
+      "assento": "Assento 73",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "0451",
+      "sessaoId": "cc25",
+      "assento": "Assento 74",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "c634",
+      "sessaoId": "cc25",
+      "assento": "Assento 75",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "0b34",
+      "sessaoId": "cc25",
+      "assento": "Assento 76",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "0ebb",
+      "sessaoId": "cc25",
+      "assento": "Assento 77",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "0c94",
+      "sessaoId": "cc25",
+      "assento": "Assento 78",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "bc65",
+      "sessaoId": "cc25",
+      "assento": "Assento 79",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "5341",
+      "sessaoId": "cc25",
+      "assento": "Assento 80",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "7847",
+      "sessaoId": "cc25",
+      "assento": "Assento 81",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "fe2c",
+      "sessaoId": "cc25",
+      "assento": "Assento 82",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "d9a7",
+      "sessaoId": "cc25",
+      "assento": "Assento 83",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "e797",
+      "sessaoId": "cc25",
+      "assento": "Assento 84",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "679b",
+      "sessaoId": "cc25",
+      "assento": "Assento 85",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "6993",
+      "sessaoId": "cc25",
+      "assento": "Assento 86",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "ec91",
+      "sessaoId": "cc25",
+      "assento": "Assento 87",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "aa81",
+      "sessaoId": "cc25",
+      "assento": "Assento 88",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "7296",
+      "sessaoId": "cc25",
+      "assento": "Assento 89",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "1802",
+      "sessaoId": "cc25",
+      "assento": "Assento 90",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "8fba",
+      "sessaoId": "cc25",
+      "assento": "Assento 91",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "cef2",
+      "sessaoId": "cc25",
+      "assento": "Assento 92",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "6479",
+      "sessaoId": "cc25",
+      "assento": "Assento 93",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "8ffb",
+      "sessaoId": "cc25",
+      "assento": "Assento 94",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "ef41",
+      "sessaoId": "cc25",
+      "assento": "Assento 95",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "3e4d",
+      "sessaoId": "cc25",
+      "assento": "Assento 96",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "614e",
+      "sessaoId": "cc25",
+      "assento": "Assento 97",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "a3c8",
+      "sessaoId": "cc25",
+      "assento": "Assento 98",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "986e",
+      "sessaoId": "cc25",
+      "assento": "Assento 99",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "8cc8",
+      "sessaoId": "cc25",
+      "assento": "Assento 100",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "f460",
+      "sessaoId": "cc25",
+      "assento": "Assento 101",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "0c4c",
+      "sessaoId": "cc25",
+      "assento": "Assento 102",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "870f",
+      "sessaoId": "cc25",
+      "assento": "Assento 103",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "9c5d",
+      "sessaoId": "cc25",
+      "assento": "Assento 104",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "bdbd",
+      "sessaoId": "cc25",
+      "assento": "Assento 105",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "978b",
+      "sessaoId": "cc25",
+      "assento": "Assento 106",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "6509",
+      "sessaoId": "cc25",
+      "assento": "Assento 107",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "7764",
+      "sessaoId": "cc25",
+      "assento": "Assento 108",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "864d",
+      "sessaoId": "cc25",
+      "assento": "Assento 109",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "f4fd",
+      "sessaoId": "cc25",
+      "assento": "Assento 110",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "f073",
+      "sessaoId": "cc25",
+      "assento": "Assento 111",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "4be6",
+      "sessaoId": "cc25",
+      "assento": "Assento 112",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "dab0",
+      "sessaoId": "cc25",
+      "assento": "Assento 113",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "6133",
+      "sessaoId": "cc25",
+      "assento": "Assento 114",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "4a3d",
+      "sessaoId": "cc25",
+      "assento": "Assento 115",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "979f",
+      "sessaoId": "cc25",
+      "assento": "Assento 116",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "7b3d",
+      "sessaoId": "cc25",
+      "assento": "Assento 117",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "5678",
+      "sessaoId": "cc25",
+      "assento": "Assento 118",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "8e2d",
+      "sessaoId": "cc25",
+      "assento": "Assento 119",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "966a",
+      "sessaoId": "cc25",
+      "assento": "Assento 120",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "468e",
+      "sessaoId": "cc25",
+      "assento": "Assento 17",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "2274",
+      "sessaoId": "cc25",
+      "assento": "Assento 18",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "a2fb",
+      "sessaoId": "cc25",
+      "assento": "Assento 19",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "70a3",
+      "sessaoId": "cc25",
+      "assento": "Assento 20",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "a0b7",
+      "sessaoId": "cc25",
+      "assento": "Assento 21",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "13bb",
+      "sessaoId": "cc25",
+      "assento": "Assento 22",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "8a10",
+      "sessaoId": "cc25",
+      "assento": "Assento 23",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "ff4f",
+      "sessaoId": "cc25",
+      "assento": "Assento 24",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "89da",
+      "sessaoId": "cc25",
+      "assento": "Assento 25",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "9256",
+      "sessaoId": "cc25",
+      "assento": "Assento 26",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "c234",
+      "sessaoId": "cc25",
+      "assento": "Assento 27",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "19af",
+      "sessaoId": "cc25",
+      "assento": "Assento 28",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "2cf8",
+      "sessaoId": "cc25",
+      "assento": "Assento 29",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "4424",
+      "sessaoId": "cc25",
+      "assento": "Assento 30",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "7c1a",
+      "sessaoId": "cc25",
+      "assento": "Assento 31",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "5cdb",
+      "sessaoId": "cc25",
+      "assento": "Assento 32",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "b89f",
+      "sessaoId": "cc25",
+      "assento": "Assento 33",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "c287",
+      "sessaoId": "cc25",
+      "assento": "Assento 34",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "a567",
+      "sessaoId": "cc25",
+      "assento": "Assento 35",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "e98e",
+      "sessaoId": "cc25",
+      "assento": "Assento 36",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "3691",
+      "sessaoId": "cc25",
+      "assento": "Assento 37",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "fe80",
+      "sessaoId": "cc25",
+      "assento": "Assento 38",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "2564",
+      "sessaoId": "cc25",
+      "assento": "Assento 39",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "03fe",
+      "sessaoId": "cc25",
+      "assento": "Assento 40",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "8498",
+      "sessaoId": "cc25",
+      "assento": "Assento 41",
+      "tipo": "MEIA",
+      "valor": 10
+    },
+    {
+      "id": "e7b8",
+      "sessaoId": "cc25",
+      "assento": "Assento 42",
+      "tipo": "MEIA",
+      "valor": 10
+    }
+  ],
+  "lanches": [],
+  "pedidos": [
+    {
+      "id": "b028",
+      "dataPedido": "2025-12-08T14:09:48.622Z",
+      "ingressos": [
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 1",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 2",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 3",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 4",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 5",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 6",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 7",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 8",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 9",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 10",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 11",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 12",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 13",
+          "tipo": "MEIA",
+          "valor": 10
+        }
+      ],
+      "lanches": [],
+      "valorTotal": 130,
+      "sessaoId": "cc25"
+    },
+    {
+      "id": "cbd4",
+      "dataPedido": "2025-12-08T14:12:15.769Z",
+      "ingressos": [
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 14",
+          "tipo": "INTEIRA",
+          "valor": 20
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 15",
+          "tipo": "INTEIRA",
+          "valor": 20
+        }
+      ],
+      "lanches": [
+        {
+          "lancheId": "852e",
+          "quantidade": 2,
+          "precoUnitario": 10,
+          "nomeLanche": "pipocaB"
+        },
+        {
+          "lancheId": "f0cf",
+          "quantidade": 2,
+          "precoUnitario": 8,
+          "nomeLanche": "suco"
+        }
+      ],
+      "valorTotal": 76,
+      "sessaoId": "cc25"
+    },
+    {
+      "id": "3ae9",
+      "dataPedido": "2025-12-08T14:13:11.647Z",
+      "ingressos": [
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 16",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 17",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 18",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 19",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 20",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 21",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 22",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 23",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 24",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 25",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 26",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 27",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 28",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 29",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 30",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 31",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 32",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 33",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 34",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 35",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 36",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 37",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 38",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 39",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 40",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 41",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 42",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 43",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 44",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 45",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 46",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 47",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 48",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 49",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 50",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 51",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 52",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 53",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 54",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 55",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 56",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 57",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 58",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 59",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 60",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 61",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 62",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 63",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 64",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 65",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 66",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 67",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 68",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 69",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 70",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 71",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 72",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 73",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 74",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 75",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 76",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 77",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 78",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 79",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 80",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 81",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 82",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 83",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 84",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 85",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 86",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 87",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 88",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 89",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 90",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 91",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 92",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 93",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 94",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 95",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 96",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 97",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 98",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 99",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 100",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 101",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 102",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 103",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 104",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 105",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 106",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 107",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 108",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 109",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 110",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 111",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 112",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 113",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 114",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 115",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 116",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 117",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 118",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 119",
+          "tipo": "MEIA",
+          "valor": 10
+        },
+        {
+          "sessaoId": "cc25",
+          "assento": "Assento 120",
+          "tipo": "MEIA",
+          "valor": 10
+        }
+      ],
+      "lanches": [],
+      "valorTotal": 1050,
+      "sessaoId": "cc25"
+    }
+  ]
 }

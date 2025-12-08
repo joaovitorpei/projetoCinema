@@ -1,4 +1,4 @@
-import type { Filme, Sala, Sessao, Ingresso } from '../types';
+import type { Filme, Sala, Sessao, Ingresso, Lanche, Pedido } from '../types';
 
 const API_URL = 'http://localhost:4000';
 
@@ -32,6 +32,7 @@ export const api = {
 
   // Salas
   listarSalas: () => request<Sala[]>('/salas'),
+  obterSala: (id: string) => request<Sala>(`/salas/${id}`),
   criarSala: (sala: Sala) => request<Sala>('/salas', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -55,4 +56,22 @@ export const api = {
     body: JSON.stringify(ingresso),
   }),
   listarIngressosPorSessao: (sessaoId: string) => request<Ingresso[]>(`/ingressos?sessaoId=${sessaoId}`),
+
+  // Lanches
+  listarLanches: () => request<Lanche[]>('/lanches'),
+  obterLanche: (id: string) => request<Lanche>(`/lanches/${id}`),
+  criarLanche: (lanche: Lanche) => request<Lanche>('/lanches', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(lanche),
+  }),
+  excluirLanche: (id: string) => request<void>(`/lanches/${id}`, { method: 'DELETE' }),
+
+  // Pedidos
+  listarPedidos: () => request<Pedido[]>('/pedidos'),
+  criarPedido: (pedido: Pedido) => request<Pedido>('/pedidos', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(pedido),
+  }),
 };

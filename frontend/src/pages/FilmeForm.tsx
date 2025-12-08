@@ -3,6 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import { api } from '../services/api';
 import { filmeSchema } from '../types';
 import { z } from 'zod';
+import { CampoTexto } from '../components/Formulario/CampoTexto';
+import { CampoSelect } from '../components/Formulario/CampoSelect';
+import { Botao } from '../components/Botao/Botao';
 
 export function FilmeForm() {
   const navigate = useNavigate();
@@ -17,45 +20,14 @@ export function FilmeForm() {
   });
   const [erros, setErros] = useState<Record<string, string>>({});
 
-  // --- CONFIGURAÇÃO DE ESTILOS (CORES) ---
-  const estilos = {
-    container: {
-      backgroundColor: '#f0f8ff', // Azul Alice (Claro) para o fundo
-      padding: '2rem',
-      borderRadius: '15px',
-      boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-      border: '1px solid #cfe2ff'
-    },
-    titulo: {
-      color: '#003366', // Azul Escuro Profundo
-      fontWeight: 'bold',
-      borderBottom: '2px solid #003366',
-      paddingBottom: '10px'
-    },
-    botaoSalvar: {
-      backgroundColor: '#003366', // Azul Escuro
-      borderColor: '#003366',
-      color: 'white'
-    },
-    botaoCancelar: {
-      backgroundColor: 'transparent',
-      borderColor: '#003366',
-      color: '#003366'
-    },
-    label: {
-      color: '#004080', // Azul médio para os textos dos labels
-      fontWeight: '500'
-    }
-  };
-
-  function lidarComMudanca(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) {
+  function lidarComMudanca(e: React.ChangeEvent<any>) {
     const { name, value } = e.target;
     setDadosFormulario(prev => ({ ...prev, [name]: value }));
   }
 
   async function lidarComEnvio(e: React.FormEvent) {
     e.preventDefault();
-
+    
     try {
       // Converter tipos para validação
       const filmeParaValidar = {
@@ -68,21 +40,21 @@ export function FilmeForm() {
 
       // Enviar para API
       await api.criarFilme(filmeValidado);
-
+      
       alert('Filme cadastrado com sucesso!');
       navigate('/filmes');
-
+      
     } catch (erro) {
       if (erro instanceof z.ZodError) {
         const novosErros: Record<string, string> = {};
-
+        
         erro.issues.forEach(issue => {
           const field = issue.path[0];
           if (field) {
             novosErros[field.toString()] = issue.message;
           }
         });
-
+        
         setErros(novosErros);
       } else {
         console.error(erro);
@@ -92,135 +64,108 @@ export function FilmeForm() {
   }
 
   return (
-    <div className="container mt-4 mb-5" style={{ maxWidth: '800px' }}>
-      <div style={estilos.container}>
-        <h2 className="mb-4" style={estilos.titulo}>Novo Filme</h2>
+    <div>
+      <h2 className="mb-4">Novo Filme</h2>
+      <form onSubmit={lidarComEnvio} className="row g-3">
+        <div className="col-md-6">
+          <CampoTexto
+            label="Título"
+            name="titulo"
+            value={dadosFormulario.titulo}
+            onChange={lidarComMudanca}
+            erro={erros.titulo}
+          />
+        </div>
 
-        <form onSubmit={lidarComEnvio} className="row g-3">
-          <div className="col-md-6">
-            <label className="form-label" style={estilos.label}>Título</label>
-            <input
-              type="text"
-              className={`form-control ${erros.titulo ? 'is-invalid' : ''}`}
-              name="titulo"
-              value={dadosFormulario.titulo}
-              onChange={lidarComMudanca}
-              placeholder="Ex: Star Wars"
-            />
-            {erros.titulo && <div className="invalid-feedback">{erros.titulo}</div>}
-          </div>
+        <div className="col-md-6">
+          <CampoSelect
+            label="Gênero"
+            name="genero"
+            value={dadosFormulario.genero}
+            onChange={lidarComMudanca}
+            erro={erros.genero}
+            opcoes={[
+              { label: 'Ação', value: 'Ação' },
+              { label: 'Comédia', value: 'Comédia' },
+              { label: 'Drama', value: 'Drama' },
+              { label: 'Terror', value: 'Terror' },
+              { label: 'Ficção', value: 'Ficção' }
+            ]}
+          />
+        </div>
 
-          <div className="col-md-6">
-            <label className="form-label" style={estilos.label}>Gênero</label>
-            <select
-              className={`form-select ${erros.genero ? 'is-invalid' : ''}`}
-              name="genero"
-              value={dadosFormulario.genero}
-              onChange={lidarComMudanca}
-            >
-              <option value="">Selecione...</option>
-              <option value="Ação">Ação</option>
-              <option value="Comédia">Comédia</option>
-              <option value="Drama">Drama</option>
-              <option value="Terror">Terror</option>
-              <option value="Ficção">Ficção</option>
-              <option value="Romance">Romance</option>
-              <option value="Animação">Animação</option>
-              <option value="Documentário">Documentário</option>
-              <option value="Fantasia">Fantasia</option>
-              <option value="Suspense">Suspense</option>
-            </select>
-            {erros.genero && <div className="invalid-feedback">{erros.genero}</div>}
-          </div>
+        <div className="col-md-4">
+          <CampoTexto
+            label="Duração (minutos)"
+            name="duracao"
+            type="number"
+            value={dadosFormulario.duracao}
+            onChange={lidarComMudanca}
+            erro={erros.duracao}
+          />
+        </div>
 
-          <div className="col-md-4">
-            <label className="form-label" style={estilos.label}>Duração (minutos)</label>
-            <input
-              type="number"
-              className={`form-control ${erros.duracao ? 'is-invalid' : ''}`}
-              name="duracao"
-              value={dadosFormulario.duracao}
-              onChange={lidarComMudanca}
-            />
-            {erros.duracao && <div className="invalid-feedback">{erros.duracao}</div>}
-          </div>
+        <div className="col-md-4">
+          <CampoSelect
+            label="Classificação"
+            name="classificacao"
+            value={dadosFormulario.classificacao}
+            onChange={lidarComMudanca}
+            erro={erros.classificacao}
+            opcoes={[
+               { label: 'Livre', value: 'Livre' },
+               { label: '10 anos', value: '10 anos' },
+               { label: '12 anos', value: '12 anos' },
+               { label: '14 anos', value: '14 anos' },
+               { label: '16 anos', value: '16 anos' },
+               { label: '18 anos', value: '18 anos' }
+            ]}
+          />
+        </div>
 
-          <div className="col-md-4">
-            <label className="form-label" style={estilos.label}>Classificação</label>
-            <select
-              className={`form-select ${erros.classificacao ? 'is-invalid' : ''}`}
-              name="classificacao"
-              value={dadosFormulario.classificacao}
-              onChange={lidarComMudanca}
-            >
-              <option value="">Selecione...</option>
-              <option value="Livre">Livre</option>
-              <option value="10 anos">10 anos</option>
-              <option value="12 anos">12 anos</option>
-              <option value="14 anos">14 anos</option>
-              <option value="16 anos">16 anos</option>
-              <option value="18 anos">18 anos</option>
-            </select>
-            {erros.classificacao && <div className="invalid-feedback">{erros.classificacao}</div>}
-          </div>
+        <div className="col-12">
+          <CampoTexto
+            label="Sinopse"
+            name="sinopse"
+            textarea
+            rows={3}
+            value={dadosFormulario.sinopse}
+            onChange={lidarComMudanca}
+            erro={erros.sinopse}
+          />
+        </div>
 
-          <div className="col-12">
-            <label className="form-label" style={estilos.label}>Sinopse</label>
-            <textarea
-              className={`form-control ${erros.sinopse ? 'is-invalid' : ''}`}
-              name="sinopse"
-              rows={3}
-              value={dadosFormulario.sinopse}
-              onChange={lidarComMudanca}
-            ></textarea>
-            {erros.sinopse && <div className="invalid-feedback">{erros.sinopse}</div>}
-          </div>
+        <div className="col-md-6">
+          <CampoTexto
+            label="Data Início Exibição"
+            name="dataInicialExibicao"
+            type="date"
+            value={dadosFormulario.dataInicialExibicao}
+            onChange={lidarComMudanca}
+            erro={erros.dataInicialExibicao}
+          />
+        </div>
 
-          <div className="col-md-6">
-            <label className="form-label" style={estilos.label}>Data Início Exibição</label>
-            <input
-              type="date"
-              className={`form-control ${erros.dataInicialExibicao ? 'is-invalid' : ''}`}
-              name="dataInicialExibicao"
-              value={dadosFormulario.dataInicialExibicao}
-              onChange={lidarComMudanca}
-            />
-            {erros.dataInicialExibicao && <div className="invalid-feedback">{erros.dataInicialExibicao}</div>}
-          </div>
+        <div className="col-md-6">
+          <CampoTexto
+            label="Data Final Exibição"
+            name="dataFinalExibicao"
+            type="date"
+            value={dadosFormulario.dataFinalExibicao}
+            onChange={lidarComMudanca}
+            erro={erros.dataFinalExibicao}
+          />
+        </div>
 
-          <div className="col-md-6">
-            <label className="form-label" style={estilos.label}>Data Final Exibição</label>
-            <input
-              type="date"
-              className={`form-control ${erros.dataFinalExibicao ? 'is-invalid' : ''}`}
-              name="dataFinalExibicao"
-              value={dadosFormulario.dataFinalExibicao}
-              onChange={lidarComMudanca}
-            />
-            {erros.dataFinalExibicao && <div className="invalid-feedback">{erros.dataFinalExibicao}</div>}
-          </div>
-
-          <div className="col-12 mt-4 d-flex justify-content-end gap-2">
-            <button
-              type="button"
-              className="btn"
-              style={estilos.botaoCancelar}
-              onClick={() => navigate('/filmes')}
-            // Efeito visual ao passar o mouse (hover) teria que ser via CSS externo ou Styled Components, 
-            // mas este estilo inline garante a cor base.
-            >
-              Cancelar
-            </button>
-            <button
-              type="submit"
-              className="btn"
-              style={estilos.botaoSalvar}
-            >
-              Salvar Filme
-            </button>
-          </div>
-        </form>
-      </div>
+        <div className="col-12 mt-4">
+          <Botao type="submit" variant="success" className="me-2">
+            <i className="bi bi-check-lg me-2"></i>Salvar Filme
+          </Botao>
+          <Botao variant="secondary" onClick={() => navigate('/filmes')}>
+            Cancelar
+          </Botao>
+        </div>
+      </form>
     </div>
   );
 }
