@@ -1,21 +1,8 @@
 {
   "filmes": [],
-  "salas": [
-    {
-      "id": "4082",
-      "numero": 1,
-      "capacidade": 10
-    }
-  ],
+  "salas": [],
   "sessoes": [],
   "ingressos": [],
-  "lanches": [
-    {
-      "id": "9c6c",
-      "nome": "pipocaA",
-      "descricao": "jjj",
-      "preco": 10
-    }
-  ],
+  "lanches": [],
   "pedidos": []
 }
