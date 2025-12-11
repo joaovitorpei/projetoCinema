@@ -3,15 +3,15 @@ import { CartaoMenu } from '../components/CartaoMenu';
 export function Home() {
   return (
     <div className="text-center mt-5">
-      <h1 className="display-4 fw-bold mb-4">Bem-vindo ao CineWeb</h1>
+      <h1 className="display-4 fw-bold mb-4">Bem-vindo ao CineStar</h1>
       <p className="lead text-muted mb-5">
-        Sistema de gerenciamento de cinema simples e eficiente.
+        Sistema de gerenciamento.
       </p>
 
       <div className="row justify-content-center g-4">
         <CartaoMenu 
           titulo="Filmes"
-          descricao="Gerencie o catálogo de filmes em cartaz."
+          descricao="catálogo de filmes em cartaz."
           link="/filmes"
           icone="bi-film"
           classeIcone="text-primary"
@@ -20,7 +20,7 @@ export function Home() {
 
         <CartaoMenu 
           titulo="Salas"
-          descricao="Administre as salas e capacidades."
+          descricao="Administre as salas."
           link="/salas"
           icone="bi-door-open"
           classeIcone="text-success"

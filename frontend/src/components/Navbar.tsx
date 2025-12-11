@@ -10,7 +10,7 @@ export function Navbar() {
       <div className="container">
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <i className="bi bi-film me-2 text-warning"></i>
-          <span className="fw-bold">CineWeb</span>
+          <span className="fw-bold">CineStar</span>
         </Link>
         
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
